@@ -1,7 +1,5 @@
 PYTHON - HELLO WORLD
 
-*Learning Objectives":
-
 
 *GENERAL*
 
