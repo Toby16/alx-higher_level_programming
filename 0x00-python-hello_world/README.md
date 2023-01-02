@@ -3,7 +3,7 @@ PYTHON - HELLO WORLD
 *Learning Objectives":
 
 
-	*General*
+*General*
 
 		:Who created Python?
 		:Who is Guido van Rossum?
