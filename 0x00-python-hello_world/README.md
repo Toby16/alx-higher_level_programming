@@ -3,7 +3,7 @@ PYTHON - HELLO WORLD
 *Learning Objectives":
 
 
-*General*
+*GENERAL*
 
 		:Who created Python?
 		:Who is Guido van Rossum?
@@ -15,7 +15,7 @@ PYTHON - HELLO WORLD
 		:What are indexing and slicing in Python?
 		:What is the official Python coding style and how to check your code with "pycodestyle"?
 
-	*Resources*
+*RESOURCES*
 
 		:The Python Interpreter
 		:Using the Python Interpreter
@@ -24,7 +24,7 @@ PYTHON - HELLO WORLD
 		:Learn to Python
 		:Pycodestyle – Style Guide for Python Code
 
-	*Zen Of Python*
+*ZEN OF PYTHON*
 
 		The Zen of Python, by Tim Peters
 
