@@ -19,7 +19,7 @@ int check_cycle(listint_t *list)
 		hare = hare->next->next;
 		tortoise = tortoise->next;
 
-		if (hare == toroise)
+		if (hare == tortoise)
 		{
 			return (1);
 		}
