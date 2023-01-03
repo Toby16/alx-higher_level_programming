@@ -4,5 +4,9 @@ def print_last_digit(number):
         div = 10
     else:
         div = 10
-    print("{}".format(number % div), end="")
+    num_div = number % div
+    if num_div < 0:
+        print("{}".format(-num_div), end="")
+    else:
+        print("{}".format(num_div), end = "")
     return number % div
