@@ -14,5 +14,3 @@ def fizzbuzz():
         else:
             value += str(i) + " "
     print("{}".format(value))
-
-fizzbuzz()
