@@ -5,7 +5,7 @@ def fizzbuzz():
         if (i % 3 == 0) and (i % 5 == 0):
             value += "FizzBuzz "
         elif (i % 5 == 0) and (i % 3 != 0):
-            if (i != 100): 
+            if (i != 100):
                 value += "Buzz "
             else:
                 value += "Buzz"
