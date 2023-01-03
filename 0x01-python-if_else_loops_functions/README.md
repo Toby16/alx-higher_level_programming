@@ -4,7 +4,6 @@ PYTHON - IF/ELSE, LOOPS, FUNCTIONS
 #!/usr/bin/python3
 
 for i in range(1, 10):
-
 	if (i <= 5):
 
 		print("AAAAAHHHHH")
