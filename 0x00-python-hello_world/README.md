@@ -21,6 +21,7 @@ PYTHON - HELLO WORLD
 		:How To Use String Formatters in Python3
 		:Learn to Python
 		:Pycodestyle – Style Guide for Python Code
+		:Python Bytecode
 
 *ZEN OF PYTHON*
 
