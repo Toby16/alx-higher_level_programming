@@ -7,6 +7,7 @@ def print_last_digit(number):
     num_div = number % div
     if num_div < 0:
         print("{}".format(-num_div), end="")
+        return (-num_div)
     else:
         print("{}".format(num_div), end="")
-    return number % div
+    return (num_div)
