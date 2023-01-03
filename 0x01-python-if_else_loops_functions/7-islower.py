@@ -4,5 +4,5 @@ def islower(c):
         if ord(c) == ord(i):
             return True
     for i in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
-        if ord(c) in ord(i):
+        if ord(c) == ord(i):
             return False
