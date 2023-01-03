@@ -8,5 +8,5 @@ def print_last_digit(number):
     if num_div < 0:
         print("{}".format(-num_div), end="")
     else:
-        print("{}".format(num_div), end = "")
+        print("{}".format(num_div), end="")
     return number % div
