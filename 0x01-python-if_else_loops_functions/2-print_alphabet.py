@@ -1,3 +1,5 @@
 #!/usr/bin/python3
+string = ""
 for i in "abcdefghijklmnopqrstuvwxyz":
-    print(i, end="")
+    string += i
+print(f"{string}")
