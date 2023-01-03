@@ -2,6 +2,9 @@
 def uppercase(str):
     string = ""
     for i in str:
-        num = ord(i) - 32
+        if i not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+            num = ord(i) - 32
+        else:
+            num = ord(i)
         string += chr(num)
     print("{}".format(string))
