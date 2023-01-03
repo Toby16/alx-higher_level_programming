@@ -13,4 +13,4 @@ def fizzbuzz():
             value += "Fizz "
         else:
             value += str(i) + " "
-    print("{}".format(value))
+    print("{}".format(value), end="")
