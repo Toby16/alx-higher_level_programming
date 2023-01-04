@@ -5,4 +5,4 @@ for i in range(122, 96, -1):
         string += chr(i).upper()
     else:
         string += chr(i)
-print("{}".format(string), end = "")
+print("{}".format(string), end="")
