@@ -3,16 +3,23 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+/**
+ * is_palindrome - Function to check if a singly linked list is a palindrome
+ * @head: argument
+ * Return: value
+ */
+
 int is_palindrome(listint_t **head)
 {
 	if (head == NULL)
 	{
-        	return true;
+		return (1);
 	}
 
 	/*find the middle of the list*/
 	struct ListNode *slow = head;
 	struct ListNode *fast = head;
+
 	while (fast->next != NULL && fast->next->next != NULL)
 	{
 		slow = slow->next;
@@ -22,9 +29,11 @@ int is_palindrome(listint_t **head)
     /*reverse the second half of the list*/
 	struct ListNode *prev = NULL;
 	struct ListNode *curr = slow->next;
+
 	while (curr != NULL)
 	{
 		struct ListNode *temp = curr->next;
+
 		curr->next = prev;
 		prev = curr;
 		curr = temp;
@@ -36,10 +45,10 @@ int is_palindrome(listint_t **head)
 	{
 		if (head->val != slow->val)
 		{
-			return 0;
+			return (0);
 		}
 		head = head->next;
 		slow = slow->next;
 	}
-	return 1;
+	return (1);
 }
