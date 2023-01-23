@@ -12,7 +12,7 @@ def safe_print_list_integers(my_list=[], x=0):
         except IndexError:
             raise
             i += 1
-        #The below block of code isn't needed
+        # The below block of code isn't needed
         """else:
             pass
             i += 0"""
