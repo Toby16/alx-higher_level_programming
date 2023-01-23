@@ -12,8 +12,9 @@ def safe_print_list_integers(my_list=[], x=0):
         except IndexError:
             raise
             i += 1
-        else:
+        #The below block of code isn't needed
+        """else:
             pass
-            i += 0
+            i += 0"""
     print("")
     return count
