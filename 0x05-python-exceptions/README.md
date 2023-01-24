@@ -1,4 +1,4 @@
-## Python - Exceptions:alphabet-yellow-x:
+## Python - Exceptions :alphabet-yellow-x:
 
 # :book: General
 
