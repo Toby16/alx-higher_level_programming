@@ -1,6 +1,6 @@
-## Python - Exceptions:x:
+# Python - Exceptions:x:
 
-# :book: General
+## :book: General
 
 	:Errors and Exceptions => Difference between errors and exceptions
 	:Static & Exception Handling
