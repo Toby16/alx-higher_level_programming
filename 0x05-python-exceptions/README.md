@@ -1,4 +1,4 @@
-## Python - Exceptions :cancel:
+## Python - Exceptions :X:
 
 # :book: General
 
