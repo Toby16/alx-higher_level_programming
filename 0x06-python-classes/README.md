@@ -1,5 +1,5 @@
-## Python - Classes and Objects:classical_building:
+# Python - Classes and Objects:classical_building:
 
-# :book: General
+## :book: General
 
 	:will update later
