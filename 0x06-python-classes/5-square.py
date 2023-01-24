@@ -55,7 +55,7 @@ class Square:
         method for class 'Square' to print '#' in stdout
         """
         if self.__size == 0:
-            print("\n", end='')
+            print("\n", end="")
         else:
             for i in range(self.__size):
                 for j in range(self.__size):
