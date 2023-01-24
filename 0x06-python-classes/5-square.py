@@ -54,8 +54,10 @@ class Square:
         """
         method for class 'Square' to print '#' in stdout
         """
-        sq_val = self.__size ** 2
-        for i in range(self.__size):
-            for j in range(self.__size):
-                print("#", end="")
-            print()
+        if self.__size == 0:
+            print("\n", end='')
+        else:
+            for i in range(self.__size):
+                for j in range(self.__size):
+                    print("#", end="")
+                print()
