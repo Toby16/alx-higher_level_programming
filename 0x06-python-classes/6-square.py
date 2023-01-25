@@ -9,6 +9,7 @@ class Square:
     defines a square
     Attributes:
         size: size of square
+        position: position of square object on cartesian plane
     """
     def __init__(self, size=0, position=(0, 0)):
         """
