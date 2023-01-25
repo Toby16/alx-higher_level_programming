@@ -17,8 +17,8 @@ class Square:
             size: size of square
             position: position of square on cartesian plane
         """
-        self.__size = size
-        self.__position = position
+        self.size = size
+        self.position = position
 
         if not (isinstance(self.__size, int)):
             raise TypeError("size must be an integer")
