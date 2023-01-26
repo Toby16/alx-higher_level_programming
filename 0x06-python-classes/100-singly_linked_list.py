@@ -91,16 +91,16 @@ class SinglyLinkedList:
         """
         newnode = Node(value)
 
-        if self.__head == None:
+        if self.__head is None:
             newnode.next_node = None
             self.__head = newnode
         elif self.__head.data > value:
-                newnode.next_node = self.__head
-                self.__head = newnode
+            newnode.next_node = self.__head
+            self.__head = newnode
         else:
             temp = self.__head
-            while ((temp is not None) and (temp.next_node is not None) and 
-            (temp.next_node.data < value)):
+            while ((temp is not None) and (temp.next_node is not None) and
+                    (temp.next_node.data < value)):
                 temp = temp.next_node
             newnode.next_node = temp.next_node
             temp.next_node = newnode
