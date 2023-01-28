@@ -22,8 +22,3 @@ def add_integer(a, b=98):
         b = int(round(b, 0))
     
     return a + b
-
-
-if __name__ == "__main__":
-    import doctest
-    doctest.testfile("0-add_integer.txt")
