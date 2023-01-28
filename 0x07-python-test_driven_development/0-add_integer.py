@@ -3,6 +3,7 @@
 Integers addition
 """
 
+from math import floor
 
 def add_integer(a, b=98):
     """
@@ -17,8 +18,8 @@ def add_integer(a, b=98):
     elif type(b) not in (int, float):
         raise TypeError("b must be an integer")
     if isinstance(a, float):
-        a = int(round(a, 0))
+        a = int(a)
     if isinstance(b, float):
-        b = int(round(b, 0))
+        b = int(b)
     
     return a + b
