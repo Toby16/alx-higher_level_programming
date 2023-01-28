@@ -1,3 +1,3 @@
-# :test:PYTHON - TEST DRIVEN DEVELOPMENT
+# :write:PYTHON - TEST DRIVEN DEVELOPMENT
 
 I will update later
