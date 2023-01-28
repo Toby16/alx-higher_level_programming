@@ -1,15 +1,15 @@
 #!/usr/python3
 """
 Integers addition
+Module containing function to add two integers only
+If arguments are not integers, error is raised
 """
 
 from math import floor
 
+
 def add_integer(a, b=98):
-    """
-    method of '0-add_integer module'
-    Args:
-        a: integer argument
+    """ a: integer argument
         b: integer argument (default value = 98)
     """
 
@@ -21,5 +21,4 @@ def add_integer(a, b=98):
         a = int(a)
     if isinstance(b, float):
         b = int(b)
-    
     return a + b
