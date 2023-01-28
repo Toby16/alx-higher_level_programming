@@ -1,0 +1,33 @@
+This is a test file in reStructuredText format.
+first import 'add_integer' from '0-add_integer' module:
+>>> add_integer = __import__('0-add_integer').add_integer
+
+Now use it:
+>>> add_integer(7, 9)
+16
+
+>>> add_integer("h", 7)
+Traceback (most recent call last):
+    ...
+TypeError: a must be an integer
+
+>>> add_integer("3", "8")
+Traceback (most recent call last):
+    ...
+TypeError: a must be an integer
+
+>>> add_integer(5, "hello")
+Traceback (most recent call last):
+    ...
+TypeError: b must be an integer
+
+>>> add_integer(5, 7.2)
+12
+
+>>> add_integer(True)
+Traceback (most recent call last):
+    ...
+TypeError: a must be an integer
+
+>>> add_integer(5.9, 4.12)
+10
