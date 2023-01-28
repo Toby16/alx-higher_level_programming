@@ -10,7 +10,7 @@ SUCCESS:
 12
 
 >>> add_integer(5.9, 4.12)
-10
+9
 
 FAILS:
 >>> add_integer("h", 7)
