@@ -40,16 +40,16 @@ integers/floats")
                     if element[j] in matrix is not 'int' or 'float'
                     TypeError is raised
                     """
-                    raise TypeError("matrix must be a matrix (list of lists) of \
-integers/floats")
+                    raise TypeError("matrix must be a \
+matrix (list of lists) of integers/floats")
                     break
-        
 
     if isinstance(matrix[0], list):
         len_calc = matrix[0]
         for i in matrix:
             if len(len_calc) != len(i):
-                raise TypeError("Each row of the matrix must have the same size")
+                raise TypeError("Each row of the matrix \
+must have the same size")
                 break
         main_lst = []
         for i in matrix:
