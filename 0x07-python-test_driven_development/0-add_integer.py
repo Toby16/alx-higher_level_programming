@@ -5,8 +5,6 @@ Module containing function to add two integers only
 If arguments are not integers, error is raised
 """
 
-from math import floor
-
 
 def add_integer(a, b=98):
     """ a: integer argument
