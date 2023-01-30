@@ -1,18 +1,15 @@
 #!/usr/bin/python3
 """
-Area and Perimeter
+Area and perimeter
 class 'Rectangle' that defines a rectangle
 """
 
 
 class Rectangle:
+    """
+    init method of class 'Rectangle'
+    """
     def __init__(self, width=0, height=0):
-        """
-        init method of class 'Rectangle'
-        Arguments:
-            width
-            height
-        """
         if not isinstance(width, int):
             raise TypeError("width must be an integer")
         elif width < 0:
@@ -31,31 +28,17 @@ class Rectangle:
     def width(self):
         """
         method to retrieve self.width
-        Args:
-            No arguments besides 'self'
-        Return:
-            self.width
         """
         return (self.__width)
 
     @width.setter
     def width(self, value):
         """
-        method to assign 'value' to 'self.width'
-        Args:
-            value
+        method to assign integer value to self.width
         """
         if not isinstance(value, int):
-            """
-            if value is not of type 'int'
-                TypeError is raised
-            """
             raise TypeError("width must be an integer")
-        elif value < 0:
-            """
-            if value is less than 0
-                ValueError is raised
-            """
+        elif value <= 0:
             raise ValueError("width must be >= 0")
         else:
             self.__width = value
@@ -64,50 +47,32 @@ class Rectangle:
     def height(self):
         """
         method to retrieve self.height
-        Args:
-            No arguments besides 'self'
-        Return:
-            self.height
         """
         return (self.__height)
 
     @height.setter
     def height(self, value):
         """
-        method to assign 'value' to 'self.height'
-        Args:
-            value
+        method to assign integer value to self.height
         """
         if not isinstance(value, int):
-            """
-            if value is not of type 'int'
-                TypeError is raised
-            """
             raise TypeError("height must be an integer")
         elif value < 0:
-            """
-            if value is less than 0
-                valueError is raised
-            """
             raise ValueError("height must be >= 0")
         else:
             self.__height = value
 
     def area(self):
         """
-        method that returns area of the rectangle
+        returns area if the rectangle
         """
         return (self.__width * self.__height)
 
     def perimeter(self):
         """
-        method to return perimeter of the rectangke
+        returns perimeter of the rectangle
         """
-        if (self.width == 0) or (self.height == 0):
-            """
-            if width or height equals 0
-                0 is returned
-            """
+        if (self.__width == 0) or (self.__height == 0):
             return 0
         else:
             return (2 * (self.__height + self.__width))
