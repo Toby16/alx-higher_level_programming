@@ -17,7 +17,7 @@
 	:Difference between an attribute and property
 	:The Pythonic way to write getters and setters in python
 	:'__str__' and '__repr__' methods
-	:Difference between '__str__' and '__repr__;
+	:Difference between '__str__' and '__repr__'
 	:What is a class attribute?
 	:Difference between object attribute and class attribute
 	:Class method
