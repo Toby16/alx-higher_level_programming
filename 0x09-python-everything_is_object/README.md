@@ -1,3 +1,3 @@
-# :gear: PYTHON IS EVERYTHING
+# PYTHON IS EVERYTHING:gear:
 
 ![alt text](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/252/r_208403_QPSN8.jpg)
