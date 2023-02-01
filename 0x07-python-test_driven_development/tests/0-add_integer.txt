@@ -12,6 +12,9 @@ SUCCESS:
 >>> add_integer(5.9, 4.12)
 9
 
+>>> add_integer(7)
+105
+
 FAILS:
 >>> add_integer("h", 7)
 Traceback (most recent call last):
