@@ -6,6 +6,11 @@ Module that contains function to output text
 
 
 def text_indentation(text):
+    """
+    function to output test
+    Arguments:
+        text: text to be indented and printed
+    """
     if not isinstance(text, str):
         """
         checks if text is of type <class 'int'>
