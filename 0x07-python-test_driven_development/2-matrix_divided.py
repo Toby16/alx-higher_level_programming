@@ -31,6 +31,8 @@ def matrix_divided(matrix, div):
         ZeroDivisionError: division by zero
         """
         raise ZeroDivisionError("division by zero")
+    elif (div == float("inf")) or (div == float("-inf")):
+        raise OverflowError("cannot convert float infinity to integer or float")
 
     if not (isinstance(matrix[0], list)):
         raise TypeError("matrix must be a matrix (list of lists) of \
