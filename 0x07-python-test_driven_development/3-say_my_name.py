@@ -6,6 +6,12 @@ Module comtaining function that prints name
 
 
 def say_my_name(first_name, last_name=""):
+    """
+    function that prints name
+    Arguments:
+        first_name: first argument
+        last_name: second argument
+    """
     if not isinstance(first_name, str):
         """
         check if first_name is of type <class 'str'>
