@@ -5,6 +5,12 @@ Module that contains a function that divides all elements of a matrix.
 
 
 def matrix_divided(matrix, div):
+    """
+    Divides all elements of a matrix
+    Arguments:
+        matrix: matrix to be divided
+        div: value to divide all elements in the matrix
+    """
     if type(div) not in [int, float]:
         """
         check if div is of type 'int' or 'float'
