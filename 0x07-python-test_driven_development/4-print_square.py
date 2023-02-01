@@ -6,6 +6,11 @@ Module with function to print a square with the character '#'
 
 
 def print_square(size):
+    """
+    prints square with the "#" character
+    Arguments:
+        size: size of the square
+    """
     if not isinstance(size, int):
         raise TypeError("size must be an integer")
     elif size < 0:
