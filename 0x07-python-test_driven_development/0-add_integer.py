@@ -16,7 +16,17 @@ def add_integer(a, b=98):
     elif type(b) not in (int, float):
         raise TypeError("b must be an integer")
     if isinstance(a, float):
-        a = int(a)
+        if a == float("NaN"):
+            raise ValueError("cannot convert float NaN to integer")
+        elif (a == float("inf")) or (a == float("-inf")):
+            raise OverflowError("cannot convert float infinity to integer")
+        else:
+            a = int(a)
     if isinstance(b, float):
-        b = int(b)
+        if b == float("NaN"):
+            raise valueError("vannot convert float NaN to integer")
+        elif (a == float("inf")) or (a == float("-inf")):
+            raise OverflowError("cannot convert float infinity to integer")
+        else:
+            b = int(b)
     return a + b
