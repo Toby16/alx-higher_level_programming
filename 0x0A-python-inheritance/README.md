@@ -14,7 +14,7 @@
 	:Inheritance Magic Methods
 	:What is a Super class, Base class, or Parent Class?
 	:What is a Sub class?
-	:How to list all attributes and methods of a class or instance `dir()`
+	:How to list all attributes and methods of a class or instance * `dir()`
 	:When can an instance have new attributes?
 	:How to define a class with multiple base classes
 	:What is the default class every class inherit from? `object`
