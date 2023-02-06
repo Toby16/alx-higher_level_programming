@@ -1,1 +1,1 @@
-# PYTHON INHERITANCE :family:
+# PYTHON INHERITANCE:family:
