@@ -1,1 +1,1 @@
-# PYTHON INHERITANCE :man-woman-girl-boy:
+# PYTHON INHERITANCE :man-woman-boy:
