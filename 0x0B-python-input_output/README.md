@@ -1,6 +1,6 @@
 # PYTHON INPUT/OUTOUT
 
-![alt text](https://www.bing.com/images/search?view=detailV2&ccid=i8sWL7GP&id=E1BD2C32631F5C640CDC9A216A8E8F2AD1532A8E&thid=OIP.i8sWL7GPZzNS2A7MM45xlwHaFl&mediaurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2f3o6Mbp6IZJ7nYJR0FG%2fgiphy.gif&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.8bcb162fb18f673352d80ecc338e7197%3frik%3djipT0SqPjmohmg%26pid%3dImgRaw%26r%3d0&exph=362&expw=480&q=funny+gifs+about+input+and+output%2c+and+files+in+software+engineering&simid=608028491957559339&FORM=IRPRST&ck=1A6BDA397A56749BA7BA400EA732982F&selectedIndex=28)
+![alt text](https://th.bing.com/th/id/R.c9f5bd05392a594ded59a5aad50bed20?rik=ln6YG2rO1c3oqA&pid=ImgRaw&r=0)
 
 `Python`
 
