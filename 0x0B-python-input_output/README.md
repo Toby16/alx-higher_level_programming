@@ -1,4 +1,4 @@
-# PYTHON INPUT/OUTOUT
+# PYTHON INPUT/OUTPUT:recycle:
 
 ![alt text](https://th.bing.com/th/id/R.c9f5bd05392a594ded59a5aad50bed20?rik=ln6YG2rO1c3oqA&pid=ImgRaw&r=0)
 
