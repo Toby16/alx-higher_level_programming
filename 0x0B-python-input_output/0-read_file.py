@@ -17,4 +17,4 @@ def read_file(filename=""):
         read content of file
         close file safely
         """
-        print(file.read())
+        print(file.read(), end="")
