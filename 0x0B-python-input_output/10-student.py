@@ -27,8 +27,8 @@ class Student:
         if isinstance(attrs, list):
             dict_val = {}
             for i in attrs:
-                if (i in self.__dict__):
+                if isinstance(i, str) and (i in self.__dict__):
                     dict_val[i] = self.__dict__[i]
-                return dict_val
+            return dict_val
         else:
             return self.__dict__
