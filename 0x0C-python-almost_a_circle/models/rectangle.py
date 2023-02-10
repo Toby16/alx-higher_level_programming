@@ -111,3 +111,33 @@ class Rectangle(Base):
             raise ValueError("x must be >= 0")
         else:
             self.__y = value
+
+    def area(self):
+        """
+        method to return area of rectangle object
+        Returns:
+            width * height
+        """
+        return self.__width * self.__height
+
+    def display(self):
+        """
+        method to print the Rectangle instance with the '#' character in stdout
+        """
+        i = 0
+        while i < self.__height:
+            j = 0
+            while j < self.__width:
+                print("#", end="")
+                j += 1
+            print()
+            i += 1
+
+    def __str__(self):
+        """
+        overriding str method to return:
+            '[Rectangle] (<id>) <x>/<y> - <width>/<height>' to stdout
+        """
+        return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.__x,
+                                                       self.__y, self.__width,
+                                                       self.__height)
