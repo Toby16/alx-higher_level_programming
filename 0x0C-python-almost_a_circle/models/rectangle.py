@@ -143,3 +143,38 @@ class Rectangle(Base):
         return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.__x,
                                                        self.__y, self.__width,
                                                        self.__height)
+
+    def update(self, *args, **kwargs):
+        """
+        public method that assigns an argument to each attribute
+        Arguments:
+            *args
+        """
+        if len(args) != 0:
+            try:
+                self.id = args[0]
+            except IndexError:
+                pass
+
+            try:
+                self.__width = args[1]
+            except IndexError:
+                pass
+
+            try:
+                self.__height = args[2]
+            except IndexError:
+                pass
+
+            try:
+                self.__x = args[3]
+            except IndexError:
+                pass
+
+            try:
+                self.__y = args[4]
+            except IndexError:
+                pass
+        else:
+            for key, value in kwargs.items():
+                setattr(self, key, value)
