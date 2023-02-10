@@ -125,8 +125,10 @@ class Rectangle(Base):
         method to print the Rectangle instance with the '#' character in stdout
         """
         i = 0
+        print("\n" * self.__y, end="")
         while i < self.__height:
             j = 0
+            print(" " * self.__x, end="")
             while j < self.__width:
                 print("#", end="")
                 j += 1
