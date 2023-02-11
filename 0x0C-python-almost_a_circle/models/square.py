@@ -48,5 +48,39 @@ class Square(Rectangle):
             self.height = value
 
     def __str__(self):
+        """
+        returns string representation of the instance
+        """
         return "[Square] ({}) {}/{} - {}".format(self.id, self.x,
                                                  self.y, self.size)
+
+    def update(self, *args, **kwargs):
+        """
+        Assigns an argument to each attribute
+        Arguments:
+            args: a list of arguments
+            kwargs: a list of keyword arguments
+        """
+        if len(args) != 0:
+            try:
+                self.id = args[0]
+            except IndexError:
+                pass
+
+            try:
+                self.size = args[1]
+            except IndexError:
+                pass
+
+            try:
+                self.x = args[2]
+            except IndexError:
+                pass
+
+            try:
+                self.y = args[3]
+            except IndexError:
+                pass
+        else:
+            for key, value in kwargs.items():
+                setattr(self, key, value)
