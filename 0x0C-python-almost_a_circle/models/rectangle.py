@@ -148,7 +148,8 @@ class Rectangle(Base):
         """
         public method that assigns an argument to each attribute
         Arguments:
-            *args
+            *args: A list of arugments
+            **kwargs: A list of keyworded arguments
         """
         if len(args) != 0:
             try:
@@ -178,3 +179,15 @@ class Rectangle(Base):
         else:
             for key, value in kwargs.items():
                 setattr(self, key, value)
+
+    def to_dictionary(self):
+        """
+        public method that returns a distionary representation of a rectangle
+        """
+        dictionary = {}
+        dictionary["id"] = self.id
+        dictionary["width"] = self.__width
+        dictionary["height"] = self.__height
+        dictionary["x"] = self.__x
+        dictionary["y"] = self.__y
+        return dictionary
