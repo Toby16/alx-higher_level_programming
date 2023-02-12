@@ -61,7 +61,6 @@ class Base:
         class method that writes the
             JSON string representation of 'list_objs to a file
         Arguments:
-            cls
             list_objs: list of instances who inherits of Base class
         """
         lst_val = []
@@ -70,3 +69,20 @@ class Base:
                 for i in list_objs:
                     lst_val.append(i.to_dictionary())
             file.write(cls.to_json_string(lst_val))
+
+    @classmethod
+    def create(cls, **dictionary):
+        """
+        class method that returns:
+            an instamce of all attributes already set
+        Arguments:
+            dictionary: a list of key-worded arguments
+                      : can be thought of as a double puinter to a dictionary
+        """
+        if cls.__name__ == "Rectangle":
+            inst = cls(3, 5)
+        elif cls.__name__ == "Square":
+            inst = cls(4)
+
+        inst.update(**dictionary)
+        return inst
