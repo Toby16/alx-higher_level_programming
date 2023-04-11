@@ -2,7 +2,7 @@
 const { argv } = require('process');
 const numInt = Number(argv[2]);
 
-if (isNaN(numInt)) {
+if ((isNaN(numInt)) || (typeof numInt !== 'number')) {
   console.log('Missing number of occurrences');
 } else if (typeof numInt === 'number') {
   if (numInt > 0) {
@@ -10,6 +10,4 @@ if (isNaN(numInt)) {
       console.log('C is fun');
     }
   }
-} else {
-  console.log('Missing number of occurrences');
 }
