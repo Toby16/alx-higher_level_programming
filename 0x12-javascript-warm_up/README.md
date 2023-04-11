@@ -6,17 +6,15 @@
 
 ## General📚
 
-* Writing JavaScript
-<br>
-    : How to run a JavaScript script
+* Writing JavaScript: [How to run a JavaScript script]
 * Variables
 * Data Types
 * Operators
 * Operator Precedence
-* Controlling Program Flow
+* Controlling Program Flow: [How to use the if, if ... else statements] | [How to use while and for loops] | [How to use break and continue statements]
 * Functions
 * Objects and Arrays
 * Intrinsic Objects
 * Module Patterns
-* var, let and const
+* var, let and const: [What are differences between var, const and let?]
 * Modern JS
