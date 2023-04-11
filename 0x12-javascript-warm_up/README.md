@@ -7,6 +7,7 @@
 ## General📚
 
 * Writing JavaScript
+<br>
     : How to run a JavaScript script
 * Variables
 * Data Types
