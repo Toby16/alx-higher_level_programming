@@ -10,6 +10,6 @@ if (argCount <= 1) {
     // You can assume all arguments can be converted to integer
     lst[i] = Number(argv[i + 2]);
   }
-  lst.sort();
-  console.log(lst[argCount - 2]);
+  lst.sort((a, b) => b - a);
+  console.log(lst[1]);
 }
