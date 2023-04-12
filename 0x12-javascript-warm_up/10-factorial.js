@@ -1,9 +1,13 @@
 #!/usr/bin/node
 const { argv } = require('process');
 const numInt = Number(argv[2]);
-let rValue = 1;
 
-for (let i = 1; i <= numInt; i++) {
-  rValue *= i;
+function factorial (value) {
+  if (isNaN(value) || value <= 1) {
+    return 1;
+  } else {
+    return value * factorial(value - 1);
+  }
 }
-console.log(rValue);
+
+console.log(factorial(numInt));
