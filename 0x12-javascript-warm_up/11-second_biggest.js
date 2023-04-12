@@ -11,5 +11,5 @@ if (argCount <= 1) {
     lst[i] = Number(argv[i + 2]);
   }
   lst.sort();
-  console.log(lst[4]);
+  console.log(lst[argCount - 2]);
 }
