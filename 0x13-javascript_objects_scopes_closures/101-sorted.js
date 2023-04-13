@@ -9,6 +9,4 @@ for (const key in dictVal) {
   }
   newDict[dictVal[key]].push(key);
 }
-
-console.log(dictVal);
 console.log(newDict);
