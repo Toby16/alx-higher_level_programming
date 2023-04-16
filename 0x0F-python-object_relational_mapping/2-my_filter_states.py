@@ -23,8 +23,8 @@ if __name__ == "__main__":
     mycursor = db.cursor()
 
     # Execute SELECT query to fetch all rows from the 'states' table
-    mycursor.execute("SELECT * FROM states\
-                    ORDER BY id ASC")
+    mycursor.execute("SELECT * FROM states WHERE BINARY name='{}'\
+                    ORDER BY id ASC".format(sys.argv[4]))
 
     # Fetch all rows from the SELECT query
     rows = mycursor.fetchall()
@@ -32,8 +32,7 @@ if __name__ == "__main__":
     # Loop through each row
     # check if the 'name' column matches the 'state_name' parameter
     for row in rows:
-        if row[1] == sys.argv[4]:
-            print(row)
+        print(row)
 
     # Close cursor and database connections
     mycursor.close()
