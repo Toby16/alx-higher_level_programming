@@ -7,6 +7,7 @@
 * In the first part, we will use the module `MySQLdb` to connect to a `MySQL database` and execute the SQL queries.
 * In the second part, we will use the module `SQLAlchemy`, an Object Relational Mapper (ORM).
 <hr>
+
 * The biggest difference is: no more SQL queries! Indeed, the purpose of an ORM is to abstract the storage to the usage.
 * With an ORM, your biggest concern will be “What can I do with my objects” and not “How this object is stored? where? when?”.
 * You won’t write any SQL queries only Python code.
