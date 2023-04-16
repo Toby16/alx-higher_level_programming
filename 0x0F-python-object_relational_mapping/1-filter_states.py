@@ -33,7 +33,8 @@ if __name__ == "__main__":
     mycursor = db.cursor()
 
     # Execute SQL query to select all states whose name starts with 'N'
-    mycursor.execute("SELECT * FROM states WHERE name LIKE 'N%'")
+    mycursor.execute("SELECT * FROM states WHERE name LIKE 'N%'\
+                     ORDER BY id ASC")
 
     # Fetch all rows that match the query and print them
     rows = mycursor.fetchall()
