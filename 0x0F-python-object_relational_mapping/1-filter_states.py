@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """
-This script connects to a MySQL database and lists all states with a name starting with the letter 'N' (uppercase) from the
+This script connects to a MySQL database
+and lists all states with a name starting with
+the letter 'N'(uppercase) from the
 table 'states' in the database 'hbtn_0e_0_usa'.
 
 Usage:
