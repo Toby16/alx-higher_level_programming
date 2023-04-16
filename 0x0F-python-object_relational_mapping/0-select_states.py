@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+script that lists all states from the database hbtn_0e_0_usa.
+"""
+
 import MySQLdb
 import sys
 
@@ -13,10 +17,10 @@ db = MySQLdb.connect(host="localhost",
 # Create a cursor object to execute queries
 mycursor = db.cursor()
 
-# Execute a SELECT query to retrieve all rows from the "states" table
-mycursor.execute("SELECT * FROM states ORDER BY id ASC")
-
 if __name__ == "__main__":
+    # Execute a SELECT query to retrieve all rows from the "states" table
+    mycursor.execute("SELECT * FROM states ORDER BY id ASC")
+
     # Retrieve all rows returned by the query
     rows = mycursor.fetchall()
     # Print each row to the console
