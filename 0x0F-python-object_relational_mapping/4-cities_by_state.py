@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Connects to a MySQL database and retrieves rows from the 'cities' and 'states' tables,
+Connects to a MySQL database and retrieves rows
+from the 'cities' and 'states' tables,
 joining them on the 'state_id' column to get the corresponding state names.
 Prints the 'id' and 'name' columns of the resulting joined table.
 """
