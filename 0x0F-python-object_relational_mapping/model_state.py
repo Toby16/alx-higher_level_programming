@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-python file that contains the class definition of a State and an instance Base = declarative_base()
+python file that contains the class definition of
+a State and an instance Base = declarative_base()
 """
 
 from sqlalchemy import Column, Integer, String
@@ -16,8 +17,8 @@ class State(Base):
     """
     __tablename__ = "states"
 
-    id = Column(Integer(), primary_key=True,
-                unique=True, nullable=False)
+    id = Column(Integer(), primary_key=True, nullable=False,
+                unique=True, auto_increment=True)
     """
     The primary key for the state,
     which is a unique auto-incrementing integer.
