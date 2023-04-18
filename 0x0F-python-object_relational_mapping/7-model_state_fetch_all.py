@@ -31,4 +31,4 @@ if __name__ == "__main__":
     # Retrieve all State objects from the 'states' table
     # and print them to the console
     for states in session.query(State).order_by(State.id).all():
-        print(states.id, states.name)
+        print("{}: {}".format(states.id, states.name))
