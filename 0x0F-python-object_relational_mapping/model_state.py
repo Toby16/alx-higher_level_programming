@@ -18,7 +18,7 @@ class State(Base):
     __tablename__ = "states"
 
     id = Column(Integer(), primary_key=True, nullable=False,
-                unique=True, auto_increment=True)
+                unique=True, autoincrement=True)
     """
     The primary key for the state,
     which is a unique auto-incrementing integer.
