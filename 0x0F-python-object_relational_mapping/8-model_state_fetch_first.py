@@ -29,12 +29,10 @@ if __name__ == "__main__":
     session = Session()
 
     # if the table 'states' is empty, print "Nothing"
-    state = session.query(State).all()
+    state = session.query(State).first()
     if state is None:
         print("Nothing")
     else:
         # Retrieve first State objects from the 'states' table
         # and print print to the console
-        for states in session.query(State).order_by(State.id).all():
-            print("{}: {}".format(states.id, states.name))
-            break
+        print("{}: {}".format(state.id, state.name))
