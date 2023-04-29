@@ -12,7 +12,7 @@ if __name__ == "__main__":
     url = "http://0.0.0.0:5000/search_user"
     q = ""
 
-    if sys.argv[1]:
+    if sys.argv[1] > 1:
         q = sys.argv[1]
     data = {"q": q}
 
