@@ -13,6 +13,7 @@ if __name__ == "__main__":
     url = sys.argv[1]
 
     """
+    Just checking for something here
 
     with urllib.request.Request(url) as req:
         try:
