@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """
-
+a Python script that takes your GitHub credentials
+(username and password)
+and uses the GitHub API to display your id
 """
 
 import sys
@@ -17,4 +19,3 @@ if __name__ == "__main__":
     user_data = response.json()
     user_id = user_data.get("id")
     print(user_id)
-    print(response.json())
