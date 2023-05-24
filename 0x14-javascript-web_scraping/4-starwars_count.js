@@ -14,7 +14,7 @@ request(apiURL, (error, response, body) => {
     let i = 0;
     const movie = JSON.parse(body);
     while (i < movie.results.length) {
-    if (movie.results[i].characters.includes(WedgeAntilles)) {
+      if (movie.results[i].characters.includes(WedgeAntilles)) {
         count++;
       }
       i++;
