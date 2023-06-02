@@ -14,3 +14,12 @@ $(function () {
     }
   });
 });
+
+// shorter approach - Also works
+/*
+$(function() {
+  $("#toggle_header").click(function() {
+    $("header").toggleClass("green red");
+  });
+});
+*/
